@@ -1,0 +1,60 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float:left;
+}
+
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width:200px;
+
+    
+   
+}
+
+li a:hover {
+    text-decoration: none;
+    background-color: white;
+    color:black;
+    cursor:pointer;
+    transition-delay:0.050s;
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+}
+
+#about{
+    background-color: #dddd77;
+}
+
+#qualifications{
+    background-color:#77dd77;
+}
+
+#projects{
+    background-color: #7777dd;
+}
+
+#contact{
+    background-color: #dd77dd
+}
+
+.section{
+    margin-top:0;
+    color:white;
+}
+
+nav{
+    margin:0;
+}
